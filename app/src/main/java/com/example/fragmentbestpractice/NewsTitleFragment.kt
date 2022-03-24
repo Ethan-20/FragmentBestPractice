@@ -40,7 +40,7 @@ class NewsTitleFragment : Fragment() {
     private fun getNews(): List<News> {
         val newsList = ArrayList<News>()
         for (i in 1..50) {
-            val news = News("我的学号是:20202005190 $i", getRandomLengthString("我是学生：姚桥光 $i. "))
+            val news = News("飞机坠落最新报告！ $i", getRandomLengthString("今日新闻：第一个黑匣子找到了 $i. "))
             newsList.add(news)
         }
         return newsList
